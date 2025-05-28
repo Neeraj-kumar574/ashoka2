@@ -34,10 +34,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/service" element={<Services />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="https://ashoka2.vercel.app/about" element={<AboutUs />} />
+        <Route path="https://ashoka2.vercel.app/service" element={<Services />} />
+        <Route path="https://ashoka2.vercel.app/gallery" element={<Gallery />} />
+        <Route path="https://ashoka2.vercel.app/contact" element={<ContactUs />} />
       </Routes>
     </Router>
   );
